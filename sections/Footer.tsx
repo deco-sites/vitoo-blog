@@ -20,24 +20,30 @@ function Footer({
   width = 50,
 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
-          <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
-          />
-        )}
-      </a>
-    </div>
+    <footer class="border-t border-t-stone-800 w-full py-5">
+      <div class="container">
+        <a
+          href={href}
+          class="flex flex-row gap-1 items-center text-xs"
+          target="_blank"
+        >
+          {text && <p>{text}</p>}
+          {image && (
+            <Image
+              src={image || ""}
+              alt={alt || ""}
+              height={height || 20}
+              width={width || 50}
+            />
+          )}
+        </a>
+      </div>
+    </footer>
   );
 }
 
 export default Footer;
+
+export const LoadingFallback = (props: Props) => {
+  return <Footer {...props} />;
+};

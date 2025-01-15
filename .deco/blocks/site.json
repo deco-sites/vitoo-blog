@@ -3,12 +3,11 @@
     "type": "website",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | deco.cx",
-    "title": "Start",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/40cc7da0-93d3-4215-9c2a-04b2f86b0a47",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/22c99167-0018-484f-8b0d-4295a7d771f2"
+    "description": "Bem vindo ao meu blog, aqui compartilho um pouco dos meus vários pensamentos turbulentos que tenho durante meu dia",
+    "titleTemplate": "%s | vitoo",
+    "descriptionTemplate": "%s",
+    "title": "Blog",
+    "favicon": "https://data.decoassets.com/vitoo-blog/20970aa2-cdb6-4051-b180-4adf90d6776e/abstract-modern-simplist-geometric-form-monochrome"
   },
   "global": [
     {
@@ -30,5 +29,17 @@
   "firstByteThresholdMS": true,
   "theme": {
     "__resolveType": "Neutral"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }

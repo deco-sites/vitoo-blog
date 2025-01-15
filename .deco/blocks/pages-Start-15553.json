@@ -3,13 +3,24 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Header.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Posts/PostList.tsx",
+        "posts": {
+          "__resolveType": "posts"
+        }
+      }
     },
     {
       "__resolveType": "Footer"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {}
 }

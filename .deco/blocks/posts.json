@@ -1,0 +1,25 @@
+{
+  "__resolveType": "site/loaders/blog/postList.ts",
+  "posts": [
+    {
+      "content": [
+        {
+          "__resolveType": "site/sections/Posts/RichText.tsx",
+          "content": "<p>Bom, esse post não tem nada de mais, estou criando ele exclusivamente para declarar que, no ano de 2025, crio pelo menos <strong>1 postagem</strong> por semana. Eh isso!</p>"
+        }
+      ],
+      "slug": "birth",
+      "createdAt": "2025-01-14",
+      "seo": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "titleTemplate": "%s",
+        "descriptionTemplate": "%s",
+        "type": "website",
+        "jsonLDs": [],
+        "title": "Nascimento",
+        "description": "Esse é o meu primeiro \"post\", basicamente estou criando um comprometimento comigo mesmo :)"
+      },
+      "title": "Nascimento"
+    }
+  ]
+}

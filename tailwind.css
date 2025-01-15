@@ -29,6 +29,10 @@
     overflow: hidden;
     height: 100vh;
   }
+  
+  .container {
+    padding-inline: 0.75rem;
+  }
 }
 
 @layer utilities {
