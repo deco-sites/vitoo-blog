@@ -12,6 +12,16 @@
   "global": [
     {
       "__resolveType": "htmx/sections/htmx.tsx"
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "googleAnalyticsIds": [],
+      "trackingIds": [
+        "GTM-5RBCW35H"
+      ]
     }
   ],
   "routes": [
@@ -26,7 +36,7 @@
     "directives": []
   },
   "__resolveType": "site/apps/site.ts",
-  "firstByteThresholdMS": true,
+  "firstByteThresholdMS": false,
   "theme": {
     "__resolveType": "Neutral"
   },
@@ -40,6 +50,6 @@
     }
   },
   "flavor": {
-    "framework": "fresh"
+    "framework": "htmx"
   }
 }

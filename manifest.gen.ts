@@ -2,8 +2,9 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
-import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$$$$$$$$$0 from "./apps/deco/analytics.ts";
+import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
+import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$0 from "./loaders/blog/postList.ts";
 import * as $$$1 from "./loaders/blog/postPage.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
@@ -29,8 +30,9 @@ const manifest = {
     "site/sections/Theme/Theme.tsx": $$$$$$6,
   },
   "apps": {
-    "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
-    "site/apps/site.ts": $$$$$$$$$$$1,
+    "site/apps/deco/analytics.ts": $$$$$$$$$$$0,
+    "site/apps/deco/htmx.ts": $$$$$$$$$$$1,
+    "site/apps/site.ts": $$$$$$$$$$$2,
   },
   "name": "site",
   "baseUrl": import.meta.url,
