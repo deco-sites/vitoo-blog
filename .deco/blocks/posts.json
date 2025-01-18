@@ -4,22 +4,39 @@
     {
       "content": [
         {
+          "__resolveType": "website/sections/Rendering/Lazy.tsx",
+          "section": {
+            "__resolveType": "site/sections/Posts/RichText.tsx",
+            "content": "<h2>Introduction</h2><p>Code review is a crucial practice in modern software development that helps maintain code quality, share knowledge, and catch potential issues before they reach production. This post explores the essential aspects of conducting effective code reviews and fostering a collaborative development environment.</p><h2>Why Code Reviews Matter</h2><p>Code reviews serve multiple important purposes:</p><ul><li><p><strong>Quality Assurance</strong>: Catching bugs and potential issues early</p></li><li><p><strong>Knowledge Sharing</strong>: Spreading understanding of the codebase across the team</p></li><li><p><strong>Consistency</strong>: Maintaining coding standards and best practices</p></li><li><p><strong>Mentorship</strong>: Helping junior developers learn from more experienced team members</p></li></ul><h2>Best Practices for Reviewers</h2><h3>1. Be Timely</h3><p>Respond to code review requests promptly. Delays in code reviews can block team progress and create bottlenecks in the development process.</p><pre><code class=\"language-markdown\">❌ Bad: Letting pull requests sit for days without response\n✅ Good: Reviewing code within 24 hours of submission </code></pre><h3>2. Be Thorough but Focused</h3><p>Focus on important aspects such as:</p><ul><li><p>Architecture and design decisions</p></li><li><p>Security considerations</p></li><li><p>Performance implications</p></li><li><p>Code maintainability</p></li><li><p>Test coverage</p></li></ul><p>Don't get caught up in minor style issues that can be handled by automated tools.</p><h3>3. Provide Constructive Feedback</h3><p>Always frame feedback in a constructive manner:</p><pre><code class=\"language-markdown\">❌ Bad: \"This code is messy and inefficient\"\n✅ Good: \"We could improve performance by using a hash map instead of nested loops here\" </code></pre><h3>4. Ask Questions Instead of Making Assumptions</h3><p>Example:</p><pre><code class=\"language-markdown\">❌ Bad: \"This implementation is wrong\"\n✅ Good: \"Could you explain why you chose this approach? I'm wondering if we should consider...\" </code></pre><h2>Best Practices for Code Authors</h2><h3>1. Keep Changes Small and Focused</h3><p>Break large changes into smaller, manageable pull requests. This makes reviews easier and reduces the chance of introducing bugs.</p><pre><code class=\"language-python\">❌ Bad PR size example: # Refactoring entire user management system (1000+ lines)\n✅ Good PR size example: # Updating user authentication logic (~ 200 lines)</code></pre><h3>2. Provide Context</h3><p>Include in your pull request:</p><ul><li><p>Clear description of changes</p></li><li><p>Link to relevant tickets/issues</p></li><li><p>Screenshots (if UI changes)</p></li><li><p>Test results</p></li><li><p>Any specific areas needing attention</p></li></ul><h3>3. Self-Review First</h3><p>Before requesting a review:</p><ul><li><p>Run all tests</p></li><li><p>Check for style consistency</p></li><li><p>Review your own changes</p></li><li><p>Address obvious issues</p></li></ul><h2>Creating a Positive Code Review Culture</h2><h3>1. Set Clear Expectations</h3><p>Establish team guidelines for:</p><ul><li><p>Response time expectations</p></li><li><p>Code style standards</p></li><li><p>Testing requirements</p></li><li><p>Documentation needs</p></li></ul><h3>2. Foster Learning Opportunities</h3><p>Use code reviews as teaching moments:</p><pre><code class=\"language-markdown\">✅ \"Here's an interesting pattern we could use...\"\n✅ \"I learned this technique recently that might help...\" </code></pre><h3>3. Celebrate Good Practices</h3><p>Acknowledge when team members:</p><ul><li><p>Write well-documented code</p></li><li><p>Include comprehensive tests</p></li><li><p>Make thoughtful architectural decisions</p></li><li><p>Respond well to feedback</p></li></ul><h2>Tools and Automation</h2><h3>Essential Tools</h3><ol><li><p><strong>Automated Code Analysis</strong></p></li></ol><ul><li><p>ESLint for JavaScript</p></li><li><p>SonarQube for multiple languages</p></li><li><p>StyleCop for C#</p></li></ul><ol><li><p><strong>Code Review Platforms</strong></p></li></ol><ul><li><p>GitHub Pull Requests</p></li><li><p>GitLab Merge Requests</p></li><li><p>Gerrit</p></li></ul><ol><li><p><strong>Continuous Integration</strong></p></li></ol><ul><li><p>Jenkins</p></li><li><p>CircleCI</p></li><li><p>GitHub Actions</p></li></ul><h2>Example Code Review Checklist</h2><pre><code class=\"language-markdown\">### Functionality\n- [] Code works as intended\n- [] Edge cases are handled\n- [] Error handling is appropriate\n### Code Quality\n- [] Code follows team standards\n- [] No duplicate code\n- [] Naming is clear and consistent\n### Testing\n- [] Unit tests included\n- [] Tests are meaningful\n- [] Edge cases are tested### Security\n- [] Input is validated\n- [] Sensitive data is protected \n- [] Authentication/authorization checked </code></pre><h2>Conclusion</h2><p>Effective code review is an art that requires practice, patience, and good communication. By following these best practices and maintaining a positive, collaborative environment, teams can significantly improve their code quality and developer growth.</p><p>Remember that the goal is not just to find issues but to help each other create better software while growing as developers.</p>"
+          }
+        }
+      ],
+      "slug": "the-art-of-code-review",
+      "createdAt": "2025-01-18",
+      "seo": {
+        "description": "Code review is a crucial practice in modern software development that helps maintain code quality, share knowledge, and catch potential issues before they reach production. This post explores the essential aspects of conducting effective code reviews and fostering a collaborative development environment."
+      },
+      "title": "The Art of Code Review: Best Practices for Effective Collaboration"
+    },
+    {
+      "content": [
+        {
           "__resolveType": "site/sections/Posts/RichText.tsx",
           "content": "<p>Bom, esse post não tem nada de mais, estou criando ele exclusivamente para declarar que, no ano de 2025, crio pelo menos <strong>1 postagem</strong> por semana. Eh isso!</p>"
         }
       ],
-      "slug": "birth",
-      "createdAt": "2025-01-14",
       "seo": {
+        "description": "Esse é o meu primeiro \"post\", basicamente estou criando um comprometimento comigo mesmo :)",
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
         "titleTemplate": "%s",
         "descriptionTemplate": "%s",
         "type": "website",
         "jsonLDs": [],
-        "title": "Nascimento",
-        "description": "Esse é o meu primeiro \"post\", basicamente estou criando um comprometimento comigo mesmo :)"
+        "title": "Nascimento"
       },
-      "title": "Nascimento"
+      "title": "Nascimento",
+      "slug": "birth",
+      "createdAt": "2025-01-14"
     }
   ]
 }

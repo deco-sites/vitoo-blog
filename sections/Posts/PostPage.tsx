@@ -25,7 +25,7 @@ export default function PostDetailsPage({ post }: Props) {
   return (
     <>
       <PostSEO post={post} seo={undefined} />
-      <main class="container min-h-[calc(100vh-121px)] py-10">
+      <main class="container min-h-[calc(100vh-121px)] py-10 max-w-[65ch]">
         <h1>{post.title}</h1>
         <hr class="my-5 border-stone-700" />
         {post.content.map(({ Component, props }) => <Component {...props} />)}

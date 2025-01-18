@@ -1320,6 +1320,9 @@ video {
 .max-w-\[522px\] {
   max-width: 522px;
 }
+.max-w-\[65ch\] {
+  max-width: 65ch;
+}
 .max-w-\[80px\] {
   max-width: 80px;
 }

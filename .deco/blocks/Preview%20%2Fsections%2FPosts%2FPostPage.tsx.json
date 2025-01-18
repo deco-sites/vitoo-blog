@@ -1,0 +1,10 @@
+{
+  "__resolveType": "site/sections/Posts/PostPage.tsx",
+  "post": {
+    "__resolveType": "site/loaders/blog/postPage.ts",
+    "posts": {
+      "__resolveType": "posts"
+    },
+    "slug": "the-art-of-code-review"
+  }
+}
