@@ -1,6 +1,9 @@
 import { Section } from "@deco/deco/blocks";
 import { ImageWidget } from "apps/admin/widgets.ts";
 
+/**
+ * @title {{title}} - {{createdAt}}
+ */
 export interface Post {
   title: string;
   slug: string;

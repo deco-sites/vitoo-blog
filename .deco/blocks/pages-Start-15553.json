@@ -22,5 +22,11 @@
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
-  "seo": {}
+  "seo": {
+    "title": "Blog",
+    "description": "Bem vindo ao meu blog, aqui compartilho um pouco dos meus vários pensamentos turbulentos que tenho durante meu dia",
+    "canonical": "https://blog.vitoo.dev",
+    "favicon": "https://data.decoassets.com/vitoo-blog/20970aa2-cdb6-4051-b180-4adf90d6776e/abstract-modern-simplist-geometric-form-monochrome",
+    "type": "website"
+  }
 }
